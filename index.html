@@ -46,7 +46,7 @@
     </section>
 
     <script>
-        const current_url = window.location.protocol + '//' + window.location.host + '/'
+        const current_url = window.location.protocol + '//' + window.location.host + window.location.pathname
         const redirect_path = 'callback/'
 
         document.getElementById('cburl').innerHTML = current_url + redirect_path
