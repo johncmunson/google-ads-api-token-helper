@@ -4,7 +4,7 @@ A tiny web interface to help you get started with a refresh token for your Googl
 
 It will grant you a `refresh_token` with the `https//www.googleapis.com/auth/adwords` scope.
 
-Hosted on https://refresh-token-helper.opteo.com. 
+Hosted on https://johncmunson.github.io/google-ads-api-token-helper/. 
 
 Front-end only -- Only a browser is needed. All network requests are directed towards Google's OAuth services. It will make requests to:
 - https://accounts.google.com/o/oauth2/auth (GET request)
